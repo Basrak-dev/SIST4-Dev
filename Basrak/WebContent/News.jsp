@@ -112,5 +112,65 @@
         </div>
     </div>
 </div>
+<br />
+<div class="container">
+    <div class="row">
+        <div class="col-md-2"></div>
+        <div class="col-md-2">
+            <img class="timg" src="images/kane.jpg" alt="" class="text-center">
+        </div>
+        <div class="col-md-6">
+            <div class="row">
+                <h4><strong> 토트넘 구단이 해리 케인(27)을 '북런던의 왕'으로 치켜세웠다. </strong></h4>
+            </div>
+            <div class="row">
+                <p>토트넘은 9일(한국시간) 구단 SNS에 케인이 왕관을 쓴 그림을 올리며 북런던의 왕(The King in the North)이라고 표현했다. 케인의 북런던 더비 활약을 기념하기 위해 만든 것이다. 
+                    케인은 지난 7일 런던 토트넘 핫스퍼 스타디움서 열린 2020-2021 잉글랜드 프리미어리그(EPL) 아스널과의 11라운드 경기에서 1골을 터뜨리며 팀의 2-0 승리를 이끌었다.
+                    특히 케인은 이날 골로 과거 토트넘의 바비 스미스, 아스널의 에마뉘엘 아데바요르(이상 10골)를 넘어 북런던 더비 역대 최다골(11골) 주인공에 이름을 올렸다.  
+                    북런던 더비는 런던 북부지역을 연고지로 하는 토트넘과 아스널의 라이벌 대결이다. 이제 북런던 더비에서 케인보다 많은 골을 기록한 선수는 없다.</p>
+            </div>
+        </div>
+    </div>
+    <br />
+    <div class="row">
+        <div class="row">
+            <div class="col-md-2"></div>
+            <div class="col-md-2">
+                <img class="timg" src="images/kane.jpg" alt="" class="text-center">
+            </div>
+            <div class="col-md-6">
+                <div class="row">
+                    <h4><strong> 토트넘 구단이 해리 케인(27)을 '북런던의 왕'으로 치켜세웠다. </strong></h4>
+                </div>
+                <div class="row">
+                    <p>토트넘은 9일(한국시간) 구단 SNS에 케인이 왕관을 쓴 그림을 올리며 북런던의 왕(The King in the North)이라고 표현했다. 케인의 북런던 더비 활약을 기념하기 위해 만든 것이다. 
+                        케인은 지난 7일 런던 토트넘 핫스퍼 스타디움서 열린 2020-2021 잉글랜드 프리미어리그(EPL) 아스널과의 11라운드 경기에서 1골을 터뜨리며 팀의 2-0 승리를 이끌었다.
+                    </p>
+                </div>
+            </div>
+    </div>
+    <br />
+    <div class="row">
+        <div class="row">
+            <div class="col-md-2"></div>
+            <div class="col-md-2">
+                <img class="timg" src="images/kane.jpg" alt="" class="text-center">
+            </div>
+            <div class="col-md-6">
+                <div class="row">
+                    <h4><strong> 토트넘 구단이 해리 케인(27)을 '북런던의 왕'으로 치켜세웠다. </strong></h4>
+                </div>
+                <div class="row">
+                    <p>토트넘은 9일(한국시간) 구단 SNS에 케인이 왕관을 쓴 그림을 올리며 북런던의 왕(The King in the North)이라고 표현했다. 케인의 북런던 더비 활약을 기념하기 위해 만든 것이다. 
+                        케인은 지난 7일 런던 토트넘 핫스퍼 스타디움서 열린 2020-2021 잉글랜드 프리미어리그(EPL) 아스널과의 11라운드 경기에서 1골을 터뜨리며 팀의 2-0 승리를 이끌었다.
+                    </p>
+                </div>
+            </div>
+    </div>
+</div>
+<br />
+<br />
+<br />
+<br />
 </body>
 </html>
