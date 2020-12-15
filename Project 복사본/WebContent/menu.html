@@ -1,0 +1,94 @@
+
+<style>
+	.main {
+		/* position을 지정 X : div를 글자와 같이 위치.  */
+		/*   position : relative;
+				top : 100px;
+				left : 50%; 
+				margin-top : -100px;
+				margin-left : -512px;  */
+		/* 왼쪽에서 100px 이동. */
+		margin-left: 100px;
+		background-color: rgb(221, 220, 220);
+		display: table;
+	}
+	
+	.main_1 {
+		display: inline-block;
+		border: 1px solid black;
+		width: 200px;
+		height: 100px;
+	}
+	
+	.main_2 {
+		display: inline-block;
+		border: 1px solid black;
+		height: 100px;
+		width: 350px;
+	}
+	
+	.main_3 {
+		display: inline-block;
+		border: 1px solid black;
+		height: 100px;
+		width: 150px;
+	}
+	
+	.main_4 {
+		display: inline-block;
+		 border: 1px solid black;
+		height: 100px;
+		width: 150px;
+	}
+	
+	.main_5 {
+		display: inline-block;
+		border: 1px solid black;
+		height: 100px;
+		width: 150px;
+	}
+	
+	.content {
+		display: table-cell;
+		vertical-align: middle;			/*세로로 가운데 정렬.*/
+		text-align: center;
+		margin-bottom: 5px;
+	}
+	
+	
+	</style>
+	
+	
+	<!-- 반응형 웹을 위한 div 2개. -->
+	<div class="container">
+		<div class="row">
+	
+			<div class="main">
+				<div class="main_1 main_common">
+					<p class="content">바스락 로고</p>
+				</div>
+				<div class="main_2 main_common"></div>
+				<div class="main_3 main_common">
+					<ul>
+						<li class="content">축구</li>
+						<li class="content">해외 축구</li>
+						<li class="content">배구</li>
+					</ul>
+				</div>
+				<div class="main_4 main_common">
+					<ul>
+						<li class="content">농구</li>
+						<li class="content">NBA</li>
+					</ul>
+				</div>
+				<div class="main_5 main_common">
+					<ul>
+						<li class="content">골프</li>
+						<li class="content">게이트볼</li>
+					</ul>
+				</div>
+			</div>
+			
+		</div>
+	</div>
+	
