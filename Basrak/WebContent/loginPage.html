@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel = "stylesheet" href = "css/bootstrap.css">
+    <link rel = "stylesheet"  href = "css/style.css">
+
+    <!-- header CSS -->
+    <style>
+        /* 배민 한나체 Air를 사용하기 위한  font family*/
+	@font-face {
+		font-family: 'BMHANNAAir';
+		src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_four@1.0/BMHANNAAir.woff') format('woff');
+		font-weight: normal;
+		font-style: normal;
+	}
+	/*배민 한나체 Air*/
+	.bmFont{
+		font-family: 'BMHANNAAir';
+	}
+    ul{
+		text-align: center;
+	}
+	/* li태그 수평으로. */
+	li{
+		margin: 30px;	/* li태그 간의 간격. */
+		display:inline-block;
+	}
+	li:last-child{
+		margin-left: 400px;
+	}
+    </style>
+
+    <!-- menu CSS-->
+    <style>
+    .main {
+		margin-left: 100px;
+		background-color: rgb(221, 220, 220);
+		display: table;
+	}
+	.main_1 {
+		display: inline-block;
+		border: 1px solid black;
+		width: 200px;
+		height: 100px;
+	}
+	.main_2 {
+		display: inline-block;
+		border: 1px solid black;
+		height: 100px;
+		width: 350px;
+	}
+	.main_3 {
+		display: inline-block;
+		border: 1px solid black;
+		height: 100px;
+		width: 150px;
+	}
+	.main_4 {
+		display: inline-block;
+		 border: 1px solid black;
+		height: 100px;
+		width: 150px;
+	}
+	.main_5 {
+		display: inline-block;
+		border: 1px solid black;
+		height: 100px;
+		width: 150px;
+	}
+	.content {
+		display: table-cell;
+		vertical-align: middle;			/*세로로 가운데 정렬.*/
+		text-align: center;
+		margin-bottom: 5px;
+	}
+    </style>
+
+    <!-- logimForm1 CSS-->
+    <style>
+        .form-block{
+            background-color: rgb(221, 220, 220);
+            height : 220px;
+            width : 400px;
+            text-align: center;
+            /* margin-left: auto;
+            margin-right: auto; */
+            margin : 0px auto;		/* 가운데 정렬. */
+            border-radius: 25px;
+            margin-top : 50px;
+         }
+         .form-group{
+             width : 250px;
+             margin : 0px auto;
+         }
+        .btn-primary{
+            margin-bottom : 5px;
+        }
+        .form-control{
+            margin-top : 5px;
+        }
+        img{
+            width : 30px;
+            height : 30px;
+            /* display: block; */
+        }
+    </style>
+
+</head>
+<body>
+    
+    <div class="container">
+        <div class="row">
+
+        
+        <!-- header -->
+        <ul>
+            <li class = "bmFont">바스락 로고</li>
+            <li class = "bmFont">바스락</li>
+            <li class = "bmFont">기사 보기</li>
+            <li class = "bmFont">커뮤니티</li>
+            <li class = "bmFont">문의하기</li>
+            <li class = "bmFont">로그인</li>
+        </ul>
+
+        <!-- menu -->
+        <div class="main">
+            <div class="main_1 main_common">
+                <p class="content">바스락 로고</p>
+            </div>
+            <div class="main_2 main_common"></div>
+            <div class="main_3 main_common">
+                <ul>
+                    <li class="content">축구</li>
+                    <li class="content">해외 축구</li>
+                    <li class="content">배구</li>
+                </ul>
+            </div>
+            <div class="main_4 main_common">
+                <ul>
+                    <li class="content">농구</li>
+                    <li class="content">NBA</li>
+                </ul>
+            </div>
+            <div class="main_5 main_common">
+                <ul>
+                    <li class="content">골프</li>
+                    <li class="content">게이트볼</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- loginForm1 -->
+        <!--  회원가입 입력 폼. -->
+		<form class="form-block">
+			<div class="form-group">
+			
+				<div class="input-group">
+                    <div class="input-group-addon">
+                        <img src = "images/user.png" alt = "User Images">
+                    </div>
+					<input type="email" class="form-control" id="exampleInputAmount" placeholder="aaa@basrak.com">
+				</div>
+				<br/>
+				
+				<div class="input-group">
+					<div class="input-group-addon">
+                        <img src = "images/key.png" alt = "Key Images">
+                    </div>
+					<input type="password" class="form-control" id="exampleInputAmount" placeholder="비밀번호 입력">
+				</div>
+				<br/>
+				
+				<button type="submit" class="btn btn-primary">회원가입</button>
+				<br/>
+				
+				<button type="submit" class="btn btn-success">회원으로 이용하고 싶으시다면 클릭</button>
+				
+			</div>
+		</form>			<!--  회원가입 입력 폼 end. -->
+
+		
+		<br/>
+		<!--  바스락 클릭 시, 드롭다운으로 보일 부분.  -->
+		<div class="form-block">
+			바스락 소개
+			<br/>바스락은요~
+		
+		</div>
+
+
+
+    </div>
+</div>
+
+
+</body>
+</html>

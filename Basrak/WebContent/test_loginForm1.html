@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+
+	<link rel = "stylesheet" href = "css/bootstrap.css" />
+
+	<style>
+
+		.form-block1{
+			background-color: rgb(221, 220, 220);
+			height : 150px;
+			width : 400px;
+			text-align: center;
+			margin : 0px auto;		/* 가운데 정렬. */
+			border-radius: 25px;
+		}
+		.form-block2{
+			background-color: rgb(221, 220, 220);
+			height : 300px;
+			width : 400px;
+			text-align: center;
+			margin : 0px auto;		/* 가운데 정렬. */
+			border-radius: 25px;
+		}
+		.btn-primary, .btn-success{
+			margin-top : 10px;
+		}
+		.form-control{
+			margin-top : 10px;
+		}
+		img{
+			width : 30px;
+			height : 30px;
+			display: block;
+		}
+		</style>
+
+</head>
+<body>
+	
+	<!-- 반응형 웹을 위한 div 2개. -->
+<div class="container">
+	<div class="row">
+
+
+		<!--  회원가입 입력 폼. -->
+		<form class="form-block1">
+			<div class="form-group">
+			
+				<div class="input-group">
+					<div class="input-group-addon"><img src="images/user.png" alt = "User Images">
+						<input type="email" class="form-control" id="exampleInputAmount" placeholder="aaa@basrak.com">
+					</div>
+					<div class="input-group-addon"><img src = "images/key.png" alt = "Key Images">
+						<input type="password" class="form-control" id="exampleInputAmount" placeholder="비밀번호 입력"><br/>
+					</div>
+					<button type="submit" class="btn btn-primary">회원가입</button><br/>
+					<button type="submit" class="btn btn-success">회원으로 이용하고 싶으시다면 클릭</button>
+				</div>
+				
+			</div>
+		</form>			<!--  회원가입 입력 폼 end. -->
+
+		
+		<br/>
+		<!--  바스락 클릭 시, 드롭다운으로 보일 부분.  -->
+		<div class="form-block2">
+			바스락 소개
+			<br/>바스락은 통합 뉴스레터 플랫폼
+		
+		</div>
+		
+		
+	</div>
+</div>
+
+
+</body>
+</html>
+
+
